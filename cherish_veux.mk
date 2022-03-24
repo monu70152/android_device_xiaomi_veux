@@ -32,9 +32,9 @@ WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="veux-user 12 SKQ1.211006.001 V13.0.2.0.SKCMIXM release-keys"
+    PRIVATE_BUILD_DESC="veux-user 12 SKQ1.211006.001 V13.0.4.0.SKCMIXM release-keys"
 
-BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.2.0.SKCMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.4.0.SKCMIXM:user/release-keys
 
 # Maintainer Stuff
 CHERISH_BUILD_TYPE := OFFICIAL
