@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
+# Inherit Launcher3 Mod
+$(call inherit-product, vendor/launcher3mod/config.mk)
+
 # Inherit some common CherishOS Stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
